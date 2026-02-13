@@ -39,8 +39,7 @@ The goal of this project is to demonstrate real-world automation skills used in 
   ## ⚙️Installation
 
   ### Clone repository
-  git clone https://github.com/Sundzaj/https://github.com/Sundzaj/Portfolio-3.git
-cd https://github.com/Sundzaj/Portfolio-3.git
+  git clone [<URL_REPOZYTORIUM>](https://github.com/Sundzaj/Portfolio-3.git)
 
 ### Install dependencies
 npm install
@@ -70,4 +69,5 @@ TEST_USER_MOBILE=123456789
 
 ### Run all tests
 npx playwright test
+
 
