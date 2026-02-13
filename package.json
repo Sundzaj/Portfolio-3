@@ -1,0 +1,24 @@
+{
+  "name": "e-commerce-regression-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sundzaj/Portfolio-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sundzaj/Portfolio-3/issues"
+  },
+  "homepage": "https://github.com/Sundzaj/Portfolio-3#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.1",
+    "dotenv": "^17.2.4"
+  }
+}
