@@ -52,7 +52,9 @@ npx playwright install
 This project supports .env configuration. Create a local .env file in the root folder
 cp .env.example .env
 
-Example .env:
+Example `.env`:
+
+```env
 BASE_URL=https://automationexercise.com
 TEST_USER_NAME=Dawid Tester
 TEST_USER_PASSWORD=Test1234!
@@ -64,10 +66,12 @@ TEST_USER_STATE=State
 TEST_USER_CITY=City
 TEST_USER_ZIPCODE=00-001
 TEST_USER_MOBILE=123456789
+```
 
 ## ▶️Running tests
 
 ### Run all tests
 npx playwright test
+
 
 
