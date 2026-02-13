@@ -73,5 +73,28 @@ TEST_USER_MOBILE=123456789
 ### Run all tests
 npx playwright test
 
+##🧪 Test Scenarios Included
+### UI (E2E)
+
+- Register new user
+- Search product
+- Add product to cart
+- Checkout and place an order
+- Validate success message: ORDER PLACED!
+
+### API
+
+- Validate products list endpoint
+- Verify status code
+- Verify JSON response contains expected product
+
+## 📌 Notes
+
+The tested website contains dynamic popups such as:
+
+- consent dialogs
+- ads in iframe
+
+This framework includes methods to automatically handle them to keep tests stable.
 
 
